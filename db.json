@@ -1,12 +1,8 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "report": [
+    { "id": 1, "imei": "11111" },
+    { "id": 2, "imei": "11112" },
+    { "id": 3, "imei": "11113" }
   ],
   "profile": {
     "name": "typicode"
