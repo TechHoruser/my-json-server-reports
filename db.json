@@ -1,8 +1,43 @@
 {
   "report": [
-    { "id": 1, "imei": "11110", "serial": "22220", "dysfunctionCodes": []},
-    { "id": 2, "imei": "11111", "serial": "22221", "dysfunctionCodes": [1]},
-    { "id": 3, "imei": "11112", "serial": "22222", "dysfunctionCodes": [1]}
+    {
+      "imei": "11110",
+      "serial": "22220",
+      "status": "ok",
+      "data": {
+        "dysfunctionCodes": []
+      }
+    },
+    {
+      "imei": "11111",
+      "serial": "22221",
+      "status": "ok",
+      "data": {
+        "dysfunctionCodes": [1]
+      }
+    },
+    {
+      "imei": "11112",
+      "serial": "22222",
+      "status": "ko",
+      "error": {
+        "errorCode": 0,
+        "errorMessage": "Error al obtener el reporte"
+      }
+    },
+    {
+      "imei": "11113",
+      "serial": "22223",
+      "status": "ko",
+      "error": {
+        "errorCode": 1,
+        "errorMessage": "Reporte expirado"
+      },
+      "data": {
+        "lastReportTimestamp": "2021-04-12T14:30:00Z",
+        "maxMinutes": 180
+      }
+    }
   ],
   "profile": {
     "name": "typicode"
