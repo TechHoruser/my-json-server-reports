@@ -1,7 +1,8 @@
 {
   "report": [
     { "id": 1, "imei": "11110", "serial": "22220", "dysfunctionCodes": []},
-    { "id": 2, "imei": "11111", "serial": "22221", "dysfunctionCodes": [1]}
+    { "id": 2, "imei": "11111", "serial": "22221", "dysfunctionCodes": [1]},
+    { "id": 3, "imei": "11112", "serial": "22222", "dysfunctionCodes": [1]}
   ],
   "profile": {
     "name": "typicode"
